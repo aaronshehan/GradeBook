@@ -1,8 +1,5 @@
 /*
  * Aaron Shehan
- * aaronshehan@my.unt.edu
- * ats0109
- * CSCE 1040
  * Description: This program acts as a gradebook. This program allows the user to add student, add courses, add students to courses, compute averages, print data,
  * save to file, and load from file.
  */
@@ -22,9 +19,6 @@ Enrollments enrollments;	//declares object of type Enrollments
 
 int main()
 {
-
-	std::cout << "                      Aaron Shehan	aaronshehan@my.unt.edu" << std::endl;
-	std::cout << "              Computer Science and Engineering	CSCE 1040.002" << std::endl;
 	int choice = -1; //stores user choice to decide what to do with program, initialied to -1 to enter while loop
 	std::string st_name; //stores user input for student name, used in function calls to find student id
 	std::string c_name;  //stores user input for course name, used in function calls to find course id
